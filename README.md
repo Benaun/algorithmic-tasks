@@ -6,3 +6,4 @@
 
 - **Contains duplicate** - [Имеются ли дубликаты](./src/contains-duplicate)
 - **Valid anagram** - [Являются ли строки анаграммами](./src/valid-anagram)
+- **Two Sum** - [Сумма двух чисел](./src/two-sum)
