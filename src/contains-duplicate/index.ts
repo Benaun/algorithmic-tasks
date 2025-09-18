@@ -1,10 +1,10 @@
-function hasDuplicateV1(nums: Number[]): boolean {
+function hasDuplicateV1(nums: number[]): boolean {
   const numsSet = new Set(nums);
   return nums.length === numsSet.size ? false : true;
 }
 // O(n) время, O(n) память
 
-function hasDuplicateV2(nums: Number[]): boolean {
+function hasDuplicateV2(nums: number[]): boolean {
   const myMap = new Map();
   for (const num of nums) {
     if (myMap.has(num)) return true;
@@ -14,7 +14,7 @@ function hasDuplicateV2(nums: Number[]): boolean {
 }
 // O(n) время, O(n) память
 
-function hasDuplicateV3(nums: Number[]): boolean {
+function hasDuplicateV3(nums: number[]): boolean {
   const sortedNums = nums.sort();
   for (let i = 0; i < sortedNums.length - 1; i++) {
     if (sortedNums[i] === sortedNums[i + 1]) return true;
@@ -23,6 +23,6 @@ function hasDuplicateV3(nums: Number[]): boolean {
 }
 // O(n log n) время, O(1) память
 
-console.log(hasDuplicateV1([1, 2, 3, 3]));
-console.log(hasDuplicateV1([1, 2, 3, 4]));
-console.log(hasDuplicateV1([1, 2, 5, 8, 7, 7, 3, 4]));
+console.log(hasDuplicateV1([1, 2, 3, 3])); // true
+console.log(hasDuplicateV1([1, 2, 3, 4])); // false
+console.log(hasDuplicateV1([1, 2, 5, 8, 7, 7, 3, 4])); //true
