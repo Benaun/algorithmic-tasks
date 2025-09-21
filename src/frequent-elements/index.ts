@@ -22,6 +22,7 @@ function topKFrequent(nums: number[], k: number): number[] {
   }
   return result.slice(0, k);
 }
+// O(n) время, O(n) память
 
 console.log(topKFrequent([1, 2, 2, 3, 3, 3], 2)); // [3,2]
 console.log(topKFrequent([7, 7], 1)); // [7]
