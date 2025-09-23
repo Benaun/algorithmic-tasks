@@ -10,3 +10,4 @@
 - **Products of Array Except Self** - [Произведение массива кроме себя](./src/products-of-array)
 - **Two Sum** - [Сумма двух чисел](./src/two-sum)
 - **Valid anagram** - [Являются ли строки анаграммами](./src/valid-anagram)
+- **Valid sudoku** - [Валидное судоку](./src/valid-sudoku)
