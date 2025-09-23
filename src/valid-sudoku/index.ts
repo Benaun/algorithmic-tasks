@@ -52,6 +52,7 @@ function isValidSudoku(board: string[][]): boolean {
   }
   return true;
 }
+// O(1) время, O(1) память
 
 console.log(isValidSudoku(firstBoard)); // true
 console.log(isValidSudoku(secondBoard)); // false
