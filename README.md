@@ -9,6 +9,7 @@
 - **Group Anagrams** - [Группировка анаграмм](./src/group-anagrams)
 - **Longest Consecutive Sequence** - [Самая длинная последовательная](./src/longest-consecutive-sequence)
 - **Products of Array Except Self** - [Произведение массива кроме себя](./src/products-of-array)
+- **Three Sum** - [Сумма трех чисел](./src/three-sum)
 - **Two Sum** - [Сумма двух чисел](./src/two-sum)
 - **Valid anagrams** - [Являются ли строки анаграммами](./src/valid-anagrams)
 - **Valid palindrome** - [Валидный палиндром](./src/valid-palindrome)
