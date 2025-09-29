@@ -10,5 +10,6 @@
 - **Longest Consecutive Sequence** - [Самая длинная последовательная](./src/longest-consecutive-sequence)
 - **Products of Array Except Self** - [Произведение массива кроме себя](./src/products-of-array)
 - **Two Sum** - [Сумма двух чисел](./src/two-sum)
-- **Valid anagram** - [Являются ли строки анаграммами](./src/valid-anagram)
+- **Valid anagrams** - [Являются ли строки анаграммами](./src/valid-anagrams)
+- **Valid palindrome** - [Валидный палиндром](./src/valid-palindrome)
 - **Valid sudoku** - [Валидное судоку](./src/valid-sudoku)
