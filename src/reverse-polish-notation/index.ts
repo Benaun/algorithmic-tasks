@@ -32,8 +32,7 @@ function evalRPN(tokens: string[]): number {
 
   return stack[0];
 }
+// O(n) время, O(n) память
 
 console.log(evalRPN(["1", "2", "+", "3", "*", "4", "-"])); // 5
 console.log(evalRPN(["1", "2", "+", "3", "*", "4", "-", "-"])); // "Invalid RPN expression"
-
-// O(n) время, O(n) память
