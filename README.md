@@ -16,3 +16,4 @@
 - **Valid palindrome** - [Валидный палиндром](./src/valid-palindrome)
 - **Valid parentheses** - [Валидные скобки](./src/valid-parentheses)
 - **Valid sudoku** - [Валидное судоку](./src/valid-sudoku)
+- [**Яндекс контест 2025**](./src/yandex-contest-2025)
